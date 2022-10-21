@@ -1,0 +1,76 @@
+{
+  "etudiant": [
+    {
+      "id": 2,
+      "moyenne": 5.5,
+      "nom": "kadi",
+      "prenom": "ilyas"
+    },
+    {
+      "id": 3,
+      "moyenne": 16,
+      "nom": "aziz",
+      "prenom": "oussama"
+    },
+    {
+      "nom": "fuyt",
+      "prenom": "bvvb",
+      "moyenne": "12",
+      "id": 4
+    },
+    {
+      "nom": "aaa",
+      "prenom": "aaa",
+      "moyenne": "12",
+      "id": 5
+    },
+    {
+      "nom": "aaaa",
+      "prenom": "ffff",
+      "moyenne": "4",
+      "id": 6
+    },
+    {
+      "nom": "zzz",
+      "prenom": "aaaaa",
+      "moyenne": "11",
+      "id": 7
+    },
+    {
+      "nom": "oussama",
+      "prenom": "aziz",
+      "moyenne": "15",
+      "id": 8
+    },
+    {
+      "nom": "aaa",
+      "prenom": "zzz",
+      "moyenne": "15",
+      "id": 9
+    },
+    {
+      "nom": "aaa",
+      "prenom": "aaa",
+      "moyenne": "12",
+      "id": 10
+    },
+    {
+      "nom": "aaa",
+      "prenom": "aaa",
+      "moyenne": "12",
+      "id": 11
+    },
+    {
+      "nom": "aaaaa",
+      "prenom": "kkl",
+      "moyenne": "13",
+      "id": 12
+    },
+    {
+      "nom": "gggggg",
+      "prenom": "ddddd",
+      "moyenne": "0.5",
+      "id": 13
+    }
+  ]
+}
