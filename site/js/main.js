@@ -1,4 +1,5 @@
 const url = 'http://localhost:3000/etudiant';
+
 const addTobody = (etudiant) => {
     // creation dynamique des elements
     let tr = document.createElement('tr');
@@ -18,7 +19,6 @@ const addTobody = (etudiant) => {
     td2.innerText = etudiant.nom;
     td3.innerText = etudiant.prenom;
     td4.innerText = etudiant.moyenne;
-
     td5.innerText = etudiant.moyenne >= 10 ? 'accepted' : 'not accepted';
     td5.style.color = etudiant.moyenne >= 10 ? 'green' : 'red';
     // ajout de la ligne au tableau
@@ -27,12 +27,12 @@ const addTobody = (etudiant) => {
 
 const load = () => {
     fetch(url)
+    // fetch : methode qui permet d'envoyer des requetes http
         .then(response => response.json())
         .then(datas => datas.forEach(etudiant => {
             addTobody(etudiant)
         }))
 }
-
 
 const addEtudiant = () => {
     let td = document.createElement('td');
@@ -53,6 +53,7 @@ const add = () => {
             'Content-Type': 'application/json'
         },
         body: JSON.stringify(etudiant)
+        // JSON.stringify : methode qui permet de convertir un objet en chaine de caractere
     })
         .then(response => response.json() )
         .then(data => {
@@ -131,5 +132,4 @@ for(let i=0;i<nom.length;i++)
         }
         button.removeAttribute('disabled');
     })    
-
 
